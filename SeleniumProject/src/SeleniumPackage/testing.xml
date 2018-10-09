@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="My sample suite">
+
+	<test name="Google Test">
+
+		<classes>
+			<class name="SeleniumPackage.GoogleTest"></class>
+		</classes>
+	</test>
+
+	<test name="Yahoo Test">
+
+		<classes>
+			<class name="SeleniumPackage.YahooTest"></class>
+		</classes>
+	</test>
+
+</suite>
